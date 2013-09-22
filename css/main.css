@@ -6,8 +6,6 @@
 }
 
 #network {
-	
-	postion:absolute;
 	top: 30%;
 	left: 10%;	
 	width: 100%;
@@ -22,12 +20,10 @@ line.link {
 }
 
 
-.nodejoint {
+circle.nodejoint {
 	fill: #fff;
         stroke: #fff;
         stroke-width: 1.5px;
-	top: 40%;
-	left: 10%;
 }
 
 

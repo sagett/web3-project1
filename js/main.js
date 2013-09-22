@@ -2,10 +2,14 @@ var test = "test";
 console.log(test);
 var movingnetwork = document.getElementById("network"); 
 
+var mouseX = MouseEvent.screenX;
+var mouseY = MouseEvent.screenY;
+
+console.log(mouseX);
 
 movingnetwork.onclick= function () {
-	movingnetwork.style.top='50%';
-	movingnetwork.style.left='50%';		
+	movingnetwork.style.top=mouseX;
+	movingnetwork.style.left= mouseY;		
 }
 
 

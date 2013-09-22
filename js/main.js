@@ -2,10 +2,10 @@ var test = "test";
 console.log(test);
 var movingnetwork = document.getElementById("network"); 
 
-var mouseX = MouseEvent.screenX;
-var mouseY = MouseEvent.screenY;
+document.addEventListener('mousemove', function(e) {
+	console.log(e.x, e.y)
+});
 
-console.log(mouseX);
 
 movingnetwork.onclick= function () {
 	movingnetwork.style.top=mouseX;

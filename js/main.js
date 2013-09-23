@@ -8,9 +8,12 @@ var mousePostion = document.addEventListener('mousemove', function(e) {
 
 
 movingnetwork.onclick= function () {
-	movingnetwork.style.top='mousePostion';
+	movingnetwork.style.top='3%';
+
+
+/*	movingnetwork.style.top='mousePostion';
 	movingnetwork.style.fill='#bbb';
-	
+*/	
 }
 
 

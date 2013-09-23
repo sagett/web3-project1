@@ -2,14 +2,15 @@ var test = "test";
 console.log(test);
 var movingnetwork = document.getElementById("network"); 
 
-document.addEventListener('mousemove', function(e) {
+var mousePostion = document.addEventListener('mousemove', function(e) {
 	console.log(e.x, e.y)
 });
 
 
 movingnetwork.onclick= function () {
-	movingnetwork.style.top=mouseX;
-	movingnetwork.style.left= mouseY;		
+	movingnetwork.style.top='mousePostion';
+	movingnetwork.style.fill='#bbb';
+	
 }
 
 

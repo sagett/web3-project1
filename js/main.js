@@ -2,26 +2,26 @@ var test = "test";
 console.log(test);
 var movingnetwork = document.getElementById("network"); 
 
+var curX;
+var curY;
 var mousePostion = document.addEventListener('mousemove', function(e) {
+	curX = (e.x - 620) + "px";
+	curY= (e.y - 375) + "px";
 	console.log(e.x, e.y)
 });
 
 
+
 movingnetwork.onclick= function () {
-	movingnetwork.style.top='3%';
-
-
-/*	movingnetwork.style.top='mousePostion';
-	movingnetwork.style.fill='#bbb';
-*/	
+	movingnetwork.style.top=curY;
+	movingnetwork.style.left=curX;
 }
 
 
-/*
-var node = document.getElementsByClassName('nodejoint');
 
-node.onclick = function () {
-	node.style.top = '90%';
-	node.style.left = '90%';
 
-}*/
+
+
+
+
+

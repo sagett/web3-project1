@@ -28,7 +28,7 @@ circle.nodejoint {
 }
 
 
-Section.main { 
+section.main { 
     width:500px; 
     width:67%; 
     float:left;
@@ -36,9 +36,8 @@ Section.main {
 
 @media only screen and (min-width: 250px) { 
     body { 
-        color:rgba(234,234,234,0.250); 
-        background:rgba(51,51,51,0.250); 
-        } 
+	#network {width: 150 px  }   
+     } 
     
            
     
@@ -46,8 +45,8 @@ Section.main {
 
 @media only screen and (max-width: 300px) { /* max-width vs min-width */
     body { 
-        color:rgba(234,234,234,0.300); background:rgba(51,51,51,0.300); 
-        /* padding-top:6em; */
+       #network {width: 200 px;} 
+        
         } 
     
     
@@ -55,17 +54,17 @@ Section.main {
         background:black; 
         }*/
 }
-@media only screen and (min-width: 350px) { body { color:rgba(234,234,234,0.350); background:rgba(51,51,51,0.350); } }
-@media only screen and (min-width: 400px) { body { color:rgba(234,234,234,0.400); background:rgba(51,51,51,0.400); } }
-@media only screen and (min-width: 450px) { body { color:rgba(234,234,234,0.450); background:rgba(51,51,51,0.450); } }
-@media only screen and (min-width: 500px) { body { color:rgba(234,234,234,0.500); background:rgba(51,51,51,0.500); } }
-@media only screen and (min-width: 550px) { body { color:rgba(234,234,234,0.550); background:rgba(51,51,51,0.550); } }
-@media only screen and (min-width: 600px) { body { color:rgba(234,234,234,0.600); background:rgba(51,51,51,0.600); } }
-@media only screen and (min-width: 650px) { body { color:rgba(234,234,234,0.650); background:rgba(51,51,51,0.650); } }
+@media only screen and (min-width: 350px) { body { #network{width: 250 px;} } }
+@media only screen and (min-width: 400px) { body { #network {width: 300 px;} }
+@media only screen and (min-width: 450px) { body {#network {width: 350 px;} } }
+@media only screen and (min-width: 500px) { body {#network {width: 400 px;} } }
+@media only screen and (min-width: 550px) { body {#network {width: 450 px;}} }
+@media only screen and (min-width: 600px) { body { #network {width: 500 px;} } }
+@media only screen and (min-width: 650px) { body {#network {width: 550px;}} }
 @media only screen and (min-width: 700px) {
-     body {  font-size:150%; color:rgba(234,234,234,0.700); background:rgba(51,51,51,0.700); } 
+     body { #network{width: 600px}  } 
 }
-@media only screen and (min-width: 750px) { body { color:rgba(234,234,234,0.750); background:rgba(51,51,51,0.750); } }
-@media only screen and (min-width: 800px) { body { color:rgba(234,234,234,0.800); background:rgba(51,51,51,0.800); } }
+@media only screen and (min-width: 750px) { body {#network {width:650 px;  } }
+@media only screen and (min-width: 800px) { body {#network {width: 700px;} }
 
 
